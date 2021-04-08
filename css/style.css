@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.search{
+    width: 690px;
+    height: 40px;
+}
+.header-section{
+    display: flex;
+    margin-top: 20px;
+}
+.enter{
+    background: rgba(24, 144, 255, 1);
+    width: 96px;
+    height: 40px;
+    color: white;
+}
+
+.busket{
+    width: 96px;
+    height: 40px;
+    margin-left: 10px;
+}
+.header-section .busket{
+    justify-content: flex-end;
+}
+.d1{
+    margin-left: 20%;
+}
+.enterance{
+    display: flex;
+    margin-left: 15%;
+}
+.logo{
+    margin-left: 10px;
+}
+
+
+/* main */
+.delivery{
+    background-image: url("../img/delivery.png");
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
